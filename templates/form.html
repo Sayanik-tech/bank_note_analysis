@@ -1,0 +1,22 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+        <h2> Bank Note Analysis Report</h2>
+        <form action="/predict",method = 'post'>
+        
+            <input type="number" name = "variance" placeholder="variance"  step='0.001'  required="required">
+            <input type="number" name = "skewness"  placeholder="skewness" step='0.001'  required="required">
+            <input type="number" name = "curtosis"  placeholder="curtosis" step='0.001'  required="required">
+            <input type="number" name = "entropy"  placeholder="entropy"  step='0.001'  required="required">
+        
+        
+            <button type='predict'>PREDICT</button>
+        
+        </form>
+
+
+    </body>
+</html>
